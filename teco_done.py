@@ -21,7 +21,7 @@ fail=0
 list=[]
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-driver_location = current_dir + '/chromedriver'
+driver_location = current_dir + '\\chromedriver.exe'
 print(driver_location)
 
 # for i in range(1,worksheet.nrows):
